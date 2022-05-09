@@ -1,20 +1,20 @@
 <p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
-<h2 align="center">Ice-Userbot Telegram</h2>
+<h2 align="center">Cio-Userbot Telegram</h2>
 <p align="center"><img src="https://i0.wp.com/images.hive.blog/DQmZgGvu6YXrMNyDb4wVURLV14WNNSYs58R1kY64HNMSmCL/hive-didver1.gif"></p>
 
-<p align="center"><a href="https://github.com/jokokendi/Ice-Userbot"> <img src="userbot/resources/logo.jpg"/></a></p>
+<p align="center"><a href="https://github.com/cioyourfvboynih/Cio-Userbot"> <img src="https://telegra.ph/file/81858c3a4428f97fec321.jpg"/></a></p>
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/jokokendi/Ice-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/jokokendi/Ice-Userbot/graphs/commit-activity)
-[![CodeFactor](https://www.codefactor.io/repository/github/jokokendi/Ice-Userbot/badge)](https://www.codefactor.io/repository/github/jokokendi/Ice-Userbot)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/jokokendi/Ice-Userbot/dashboard)
-[![Docker Pulls](https://img.shields.io/docker/pulls/kenkannih/ice-userbot)](https://hub.docker.com/r/kenkannih/ice-userbot/tags)
-[![GitHub Forks](https://img.shields.io/github/forks/jokokendi/Ice-Userbot?&logo=github)](https://github.com/jokokendi/Ice-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/jokokendi/Ice-Userbot?&logo=github)](https://github.com/jokokendi/Ice-Userbot/stargazers) 
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/cioyourfvboynih/Cio-Userbot)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-green)](https://GitHub.com/cioyourfvboynih/Cio-Userbot/graphs/commit-activity)
+[![CodeFactor](https://www.codefactor.io/repository/github/cioyourfvboynih/Cio-Userbot/badge)](https://www.codefactor.io/repository/github/cioyourfvboynih/Cio-Userbot)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/cioyourfvboynih/Cio-Userbot/dashboard)
+[![Docker Pulls](https://img.shields.io/docker/pulls/cioyourfvboynih/Cio-userbot)](https://hub.docker.com/r/cioyourfvboy/Cio-userbot/tags)
+[![GitHub Forks](https://img.shields.io/github/forks/cioyourfvboynih/Cio-Userbot?&logo=github)](https://github.com/cioyourfvboynih/Cio-Userbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/cioyourfvboynih/Cio-Userbot?&logo=github)](https://github.com/cioyourfvboynih/Cio-Userbot/stargazers) 
 
 
 
-Ice-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+Cio-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya kanger repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -31,14 +31,14 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 -  [Buat Heroku](https://youtu.be/rzwxYjJf4UY)
 -  [Api key](https://youtu.be/Fx5ASIVATWU)
--  [Deploy Ice](https://youtu.be/3m9qBZvPpmQ)
+-  [Deploy Cio-Userbot](https://youtu.be/3m9qBZvPpmQ)
 
 
 ## Tutorial
 
--  [Panduan Cara Memasang Ice-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
+-  [Panduan Cara Memasang Cio-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
 -  [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
--  [List Variabel Ice-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
+-  [List Variabel Cio-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
 
 <details>
 <summary><b>🔗 String Session</b></summary>
@@ -67,28 +67,29 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ### Tutorial Deploy di VPS
 
--  `git clone https://github.com/jokokendi/Ice-Userbot`
--  `cd Ice-Userbot`
+-  `git clone https://github.com/cioyourfvboynih/Cio-Userbot`
+-  `cd Cio-Userbot`
 -  `bash setup`
--  `screen -S Ice-Userbot`
+-  `screen -S Cio-Userbot`
 -  `bash start`
 
 </details>
-
+<details>
+<summary><b>🔗 Deploy di WEB DAN BOT </b></summary>
+<br>
 <h3 align="center">Klik Tombol di Bawah ini untuk Deploy di Heroku</h3>
 
-## HEROKU
-
-<p align="center"><a href="https://musikkuproject.blogspot.com/2022/03/blog-post.html?m=1"><img src="https://telegra.ph/file/6630257821911f10089b5.jpg"/></a></p>
+## WEB HEROKU   
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/cioyourfvboynih/Cio-Userbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Web Heroku" target="_blank"/></a></p>
 
 ## BOT HEROKU
+<p align="center"><a href="https://risman.vercel.app/deploy.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
-<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=am9rb2tlbmRpL0ljZS1Vc2VyYm90IEljZS1Vc2VyYm90"><img src="https://telegra.ph/file/70966bb4b212649afc8dc.jpg"/></a></p>
 
 
 ## Updates & Support
 
-Follow Channel [@musikkuchannel](https://t.me/musikkuchannel) untuk info Update bot dan Gabung Group [@musikkugroup](https://t.me/musikkugroup) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ice-Userbot.
+Follow Channel [@ciomusic](https://t.me/ciomusic) untuk info Update bot dan Gabung Group [@projectcio](https://t.me/projectcio) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ice-Userbot.
 
 #### Special Thanks To [Everyone](https://github.com/jokokendi/Ice-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
@@ -103,6 +104,7 @@ Follow Channel [@musikkuchannel](https://t.me/musikkuchannel) untuk info Update 
 -  [Skyzo](https://github.com/ridho17-ind) : Kang Ui
 -  [Alfa](https://github.com/CoeF) : Kang Fix
 -  [Kᴇɴ Kᴀɴ](https://github.com/jokokendi/Ice-Userbot) : Ice-Userbot Kanger
+-  [King Cio](https://github.com/cioyourfvboynih) : Cio-Userbot Pemula 
 ## © Credits
 -  [Laky-64](https://github.com/Laky-64) for [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
 -  [Lonami](https://github.com/LonamiWebs/) for [Telethon](https://github.com/LonamiWebs/Telethon)
