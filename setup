@@ -1,6 +1,6 @@
 #!/bin/bash
 # coder @TheYukki
-# kanger Ice-Userbot Installer
+# kanger Cio-Userbot Installer
 # fix Coef
 pprint (){
 	cred='\033[0;31m'
