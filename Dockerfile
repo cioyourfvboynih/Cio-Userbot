@@ -1,10 +1,11 @@
-#Ice-Userbot @UsersBanned
+#Cio-Userbot @cioyourfvboy
 FROM cioyourfvboy/cio-userbot:buster
 
-RUN git clone -b Cio-Userbot https://github.com/cioyourfvboynih/Cio-Userbot /home/ciouserbot/ \
-    && chmod 777 /home/iceuserbot \
-    && mkdir /home/ciouserbot/bin/
+RUN git clone -b Ciio-Userbot https://github.com/cioyourfvboynih/Cio-Userbot /root/userbot
+RUN mkdir /root/userbot/.bin
+RUN pip install --upgrade pip setuptools
+WORKDIR /root/userbot
 
-WORKDIR /home/ciouserbot/
+
 
 CMD [ "bash", "start" ]
