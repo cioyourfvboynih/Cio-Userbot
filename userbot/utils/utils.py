@@ -73,7 +73,7 @@ async def autobot():
     if who.username:
         username = who.username + "_ubot"
     else:
-        username = "ice" + (str(who.id))[5:] + "ubot"
+        username = "cio" + (str(who.id))[5:] + "ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -106,7 +106,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = "ice" + (str(who.id))[6:] + str(ran) + "ubot"
+        username = "cio" + (str(who.id))[6:] + str(ran) + "ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -122,7 +122,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "userbot/resources/logo.jpg")
+            await bot.send_file(bf, "userbot/resources/https://telegra.ph/file/81858c3a4428f97fec321.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -135,7 +135,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"❄️ Owner ~ {who.first_name} ❄️\n\n❄️ Powered By ~ @musikkuchannel\n\n❄️ Powered By ~ @musikkugroup"
+                bf, f"🔥 Owner ~ {who.first_name} 🔥\n\n🔥 Powered By ~ @ciomusic\n\n❄️ Powered By ~ @projectcio"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -155,8 +155,8 @@ async def autobot():
                              anonymous=False,
                              manage_call=True,
                          )
-            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ɪᴄᴇ"))
-            ppk = "userbot/resources/logogc.jpg"
+            await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴄɪᴏ")) 
+            ppk = "userbot/resources/https://telegra.ph/file/81858c3a4428f97fec321.jpg"
             await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(ppk)))
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -177,7 +177,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "userbot/resources/logo.jpg")
+        await bot.send_file(bf, "userbot/resources/https://telegra.ph/file/81858c3a4428f97fec321.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -190,7 +190,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"❄️ Owner ~ {who.first_name} ❄️\n\n❄️ Powered By ~ @musikkuchannel\n\n❄️ Powered By ~ @musikkugroup"
+            bf, f"🔥 Owner ~ {who.first_name} 🔥\n\n🔥 Powered By ~ @ciomusic\n\n❄️ Powered By ~ @projectcio"
         )
         await bot.send_message(
             BOTLOG_CHATID,
@@ -210,8 +210,8 @@ async def autobot():
                  anonymous=False,
                  manage_call=True,
              )
-        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ɪᴄᴇ"))
-        ppk = "userbot/resources/logogc.jpg"
+        await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴄɪᴏ"))
+        ppk = "userbot/resources/https://telegra.ph/file/81858c3a4428f97fec321.jpg"
         await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(ppk)))
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -221,7 +221,7 @@ async def autobot():
         )
         sys.exit(1)
 
-# by : kenkan
+# by : cioyourfvboy
 async def autopilot():
     if BOTLOG_CHATID and str(BOTLOG_CHATID).startswith("-100"):
       return
@@ -237,8 +237,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="𝙄𝘾𝙀-𝙐𝙎𝙀𝙍𝘽𝙊𝙏  𝙇𝙊𝙂𝙎",
-                about="Group log ɪᴄᴇ-ᴜsᴇʀʙᴏᴛ.\n\nJoin @musikkuchannel\n@musikkugroup",
+                title="𝘾𝙄𝙊-𝙐𝙎𝙀𝙍𝘽𝙊𝙏  𝙇𝙊𝙂𝙎",
+                about="Group log ᴄɪᴏ-ᴜsᴇʀʙᴏᴛ.\n\nJoin @ciomusic\n@projectcio",
                 megagroup=True,
             ),
         )
