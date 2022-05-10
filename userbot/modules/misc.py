@@ -66,9 +66,9 @@ async def shutdown_bot(event):
         await event.client.send_message(
             BOTLOG_CHATID,
             "**#SHUTDOWN** \n"
-            "**Ice-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
+            "**Cio-Userbot** telah di matikan!\nJika ingin menghidupkan kembali silahkan buka heroku",
         )
-    await edit_or_reply(event, "**Ice-Userbot Berhasil di matikan!**")
+    await edit_or_reply(event, "**Cio-Userbot Berhasil di matikan!**")
     if HEROKU_APP is not None:
         HEROKU_APP.process_formation()["worker"].scale(0)
     else:
@@ -79,10 +79,10 @@ async def shutdown_bot(event):
 async def restart_bot(event):
     if event.sender_id in SUDO_USERS:
         return
-    await edit_or_reply(event, "**Ice-Userbot Berhasil di Restart**")
+    await edit_or_reply(event, "**Cio-Userbot Berhasil di Restart**")
     if BOTLOG_CHATID:
         await event.client.send_message(
-            BOTLOG_CHATID, "#RESTART \n" "**Ice-Userbot Berhasil Di Restart**"
+            BOTLOG_CHATID, "#RESTART \n" "**Cio-Userbot Berhasil Di Restart**"
         )
     args = [sys.executable, "-m", "userbot"]
     execle(sys.executable, *args, environ)
@@ -93,7 +93,7 @@ async def reedme(event):
     await edit_or_reply(
         event,
         "**Berikut sesuatu untuk kamu baca:**\n"
-        "\n✮ [Userbot Repo](https://github.com/jokokendi/Ice-Userbot/blob/Ice-Userbot/README.md)"
+        "\n✮ [Userbot Repo](https://github.com/cioyourfvboynih/Cio-Userbot/blob/Cio-Userbot/README.md)"
         "\n✮ [Video Tutorial](https://youtu.be/tTDaPKsGC1I)"
         "\n✮ [List Variabel Heroku untuk Ice-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)"
         "\n✮ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)"
@@ -119,13 +119,13 @@ async def repeat(event):
 async def repo_is_here(event):
     xx = await edit_or_reply(event, "`Processing...`")
     await xx.edit(
-        f"**Hey**, __I am using__ ❄️ **Iᴄᴇ-Usᴇʀʙᴏᴛ** ❄️\n\n"
+        f"**Hey**, __I am using__ 🔥 **ᴄɪᴏ-Usᴇʀʙᴏᴛ** 🔥\n\n"
         f"      __Thanks For Using me__\n\n"
         f"✮ **Userbot Version :** `{BOT_VER}@{branch}`\n"
-        f"✮ **Group Support :** [ᗰᑌᔑᏆᏦ Ꮶᑌ](t.me/musikkugroup)\n"
-        f"✮ **Channel Project :** [𝙋𝙧𝙤𝙟𝙚𝙘𝙩 𝙅𝙖𝙬𝙖](t.me/musikkuchannel)\n"
-        f"✮ **Owner Repo :** [Kᴇɴ Kᴀɴ](t.me/escape_aja)\n"
-        f"✮ **Repo :** [Iᴄᴇ-Usᴇʀʙᴏᴛ](https://github.com/jokokendi/Ice-Userbot)"
+        f"✮ **Group Support :** [𝗽𝗿𝗼𝗷𝗲𝗰𝘁 𝗰𝗶𝗼](t.me/projectcio)\n"
+        f"✮ **Channel Project :** [𝗰𝗶𝗼 𝗺𝘂𝘀𝗶𝗰](t.me/ciomusic)\n"
+        f"✮ **Owner Repo :** [ᴋɪɴɢ ᴄɪᴏ](t.me/cioyourfvboy)\n"
+        f"✮ **Repo :** [ᴄɪᴏ-Usᴇʀʙᴏᴛ](https://github.com/cioyourfvboynih/Cio-Userbot)"
     )
 
 
