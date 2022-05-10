@@ -20,13 +20,15 @@ from userbot.utils import edit_delete, edit_or_reply
 
 DEF_UNAPPROVED_MSG = (
     "╔════════════════════╗\n"
-    "     ⛑ 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 ⛑\n"
+    "     🔥 𝗔𝗧𝗧𝗘𝗡𝗧𝗜𝗢𝗡 𝗣𝗟𝗘𝗔𝗦𝗘 🔥\n"
     "╚════════════════════╝\n"
-    "• Saya Belum Menyetujui Anda Untuk PM.\n"
-    "• Tunggu Sampai Saya Menyetujui PM Anda.\n"
+    "• Majikan Saya Belum Menyetujui Pesan Anda.\n"
+    "• Tunggu Sampai Majikan Saya Menyetujui Pesan Anda.\n"
     "• Jangan Spam Chat Atau Anda Akan Otomatis Diblokir.\n"
     "╔════════════════════╗\n"
-    "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 -𝗨𝘀𝗲𝗿𝗕𝗼𝘁\n"
+    "    𝗣𝗲𝘀𝗮𝗻 𝗢𝘁𝗼𝗺𝗮𝘁𝗶𝘀 𝗕𝘆 𝗖𝗜𝗢-𝗨𝘀𝗲𝗿𝗕𝗼𝘁\n"
+    "    𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 https://t.me/ciomusic\n"
+    "    𝗦𝗨𝗣𝗢𝗥𝗚 𝗚𝗥𝗢𝗨𝗣 @projectcio\n"
     "╚════════════════════╝\n"
 )
 
