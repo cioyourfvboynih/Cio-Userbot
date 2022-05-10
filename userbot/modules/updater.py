@@ -60,7 +60,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
             await edit_or_reply(
                 xx,
                 f"{txt}\n"
-                "**Kredensial Heroku tidak valid untuk deploy Ice-Userbot dyno.**",
+                "**Kredensial Heroku tidak valid untuk deploy Cio-Userbot dyno.**",
             )
             return repo.__del__()
         try:
@@ -96,7 +96,7 @@ async def deploy(xx, repo, ups_rem, ac_br, txt):
                 xx, "**Build Gagal!** Dibatalkan karena ada beberapa error.`"
             )
         await edit_or_reply(
-            xx, "`❄️ Ice-Userbot Berhasil Di upgrade! Userbot bisa di gunakan kembali.`"
+            xx, "`🔥 Cio-Userbot Berhasil Di upgrade! Userbot bisa di gunakan kembali.`"
         )
 
     else:
@@ -111,7 +111,7 @@ async def update(xx, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await edit_or_reply(
-        xx, "`❄️ Ice-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
+        xx, "`🔥 Cio-Userbot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`"
     )
 
     try:
@@ -128,7 +128,7 @@ async def update(xx, repo, ups_rem, ac_br):
 
 
 @ice_cmd(pattern="update( now| deploy|$)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cupdate( now| deploy|$)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cupdate( now| deploy|$)")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
     xx = await edit_or_reply(event, "`Mengecek Pembaruan, Tunggu Sebentar...`")
@@ -177,7 +177,7 @@ async def upstream(event):
         return
 
     if changelog == "" and not force_update:
-        await edit_delete(xx, "**❄️ Ice-Userbot Sudah Versi Terbaru**")
+        await edit_delete(xx, "**🔥 Cio-Userbot Sudah Versi Terbaru**")
         return repo.__del__()
 
     if conf == "" and not force_update:
