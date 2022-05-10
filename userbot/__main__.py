@@ -33,7 +33,7 @@ try:
             "MAKANYA GA USAH BERTINGKAH GOBLOK, USERBOTNYA GUA MATIIN NAJIS BANGET DIPAKE JAMET KEK LU.\nCredits: @mrismanaziz\nClone: @escape_aja"
         )
         sys.exit(1)
-    if 1607338903 not in DEVS:
+    if 1780709155 not in DEVS:
         LOGS.warning(
             f"EOL\nCio-UserBot v{BOT_VER}, Copyright © 2021-2022 ᴋɪɴɢ ᴄɪᴏ• <https://github.com/cioyourfvboynih>"
         )
