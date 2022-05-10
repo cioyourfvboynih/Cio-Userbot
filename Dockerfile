@@ -1,10 +1,10 @@
 #Ice-Userbot @UsersBanned
-FROM kenkannih/ice-userbot:buster
+FROM cioyourfvboy/cio-userbot:buster
 
-RUN git clone -b Cio-Userbot https://github.com/cioyourfvboynih/Cio-Userbot /home/iceuserbot/ \
+RUN git clone -b Cio-Userbot https://github.com/cioyourfvboynih/Cio-Userbot /home/ciouserbot/ \
     && chmod 777 /home/iceuserbot \
-    && mkdir /home/iceuserbot/bin/
+    && mkdir /home/ciouserbot/bin/
 
-WORKDIR /home/iceuserbot/
+WORKDIR /home/ciouserbot/
 
 CMD [ "bash", "start" ]
