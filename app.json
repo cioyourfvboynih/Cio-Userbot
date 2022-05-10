@@ -1,9 +1,9 @@
 {
-  "name": "Ice-Userbot",
-  "description": "[Iᴄᴇ-Usᴇʀʙᴏᴛ] userbot Telegram modular yang berjalan pada Python 3.9+",
-  "logo": "https://telegra.ph/file/146542cdd8aab1461a0dd.jpg",
-  "keywords": ["telegram", "userbot", "Ice-Userbot", "modular", "python"],
-  "repository": "https://github.com/jokokendi/Ice-Userbot",
+  "name": "Cii-Userbot",
+  "description": "[ᴄɪᴏ-Usᴇʀʙᴏᴛ] userbot Telegram modular yang berjalan pada Python 3.9+",
+  "logo": "https://telegra.ph/file/81858c3a4428f97fec321.jpg",
+  "keywords": ["telegram", "userbot", "Cio-Userbot", "modular", "python"],
+  "repository": "https://github.com/cioyourfvboynih/Cio-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup » https://t.me/musikkugroup » Lalu ketik /get string",
+      "description": "Dapatkan String Session di Grup » https://t.me/projectcio » Lalu ketik /get string",
       "required": true
     },
     "HEROKU_APP_NAME": {
