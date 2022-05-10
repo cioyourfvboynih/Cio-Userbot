@@ -483,10 +483,10 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Ice - Userbot",
-                    url="https://t.me/musikkugroup",
+                    description="Repository Cio - Userbot",
+                    url="https://t.me/projectcio",
                     thumb=InputWebDocument(INLINE_PIC, 0, "image/jpeg", []),
-                    text="**Ice - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✮ **Owner Repo :** [Kᴇɴ Kᴀɴ](https://t.me/escape_aja)\n✮ **Support :** @musikkuchannel\n✮ **Repository :** [Iᴄᴇ-Usᴇʀʙᴏᴛ](https://github.com/jokokendi/Ice-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Cio - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✮ **Owner Repo :** [ᴋɪɴɢ ᴄɪᴏ](https://t.me/cioyourfvboy)\n✮ **Support :** @ciomusic\n✮ **Repository :** [ᴄɪᴏ-Usᴇʀʙᴏᴛ](https://github.com/cioyourfvboynih/Cio-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url("ɢʀᴏᴜᴘ", "https://t.me/projectcio"),
