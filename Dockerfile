@@ -1,7 +1,5 @@
-# Using Python Slim-Buster
-FROM skyzuxzy/skyzu-userbot:buster
-#━━━━━ Userbot Telegram ━━━━━
-#━━━━━ By Skyzuu-Userbot ━━━━━
+#Ice-Userbot @UsersBanned
+FROM kenkannih/ice-userbot:buster
 
 RUN git clone -b Cio-Userbot https://github.com/cioyourfvboynih/Cio-Userbot /root/userbot
 RUN mkdir /root/userbot/.bin
