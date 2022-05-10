@@ -19,12 +19,12 @@ from userbot.events import register
 from userbot.utils import edit_or_reply, humanbytes, ice_cmd
 
 absen = [
-    "**Hadir bang Ken** 😁",
-    "**Hadir kak Ken** 😉",
-    "**Hadir dong Mas Ken** 😁",
-    "**Hadir Ken ganteng** 🥵",
-    "**Hadir bro Ken** 😎",
-    "**Hadir kak Ken maap telat** 🥺",
+    "**Hadir bang Cio** 😁",
+    "**Hadir kak Cio** 😉",
+    "**Piye Jamet Cio** 😁",
+    "**Hadir Cio ganteng** 🥵",
+    "**Hadir Tod Cio** 😎",
+    "**Hadir kak Cio maap telat** 🥺",
 ]
 
 
@@ -58,18 +58,18 @@ async def _(ping):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(ping, "**✮**")
-    await xx.edit("**✮✮**")
-    await xx.edit("**✮✮✮**")
-    await xx.edit("**✮✮✮✮**")
+    xx = await edit_or_reply(ping, "**🔥**")
+    await xx.edit("**🔥🔥**")
+    await xx.edit("**🔥🔥🔥**")
+    await xx.edit("**🔥🔥🔥🔥**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
     await xx.edit(
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"**PONG!!🏓**\n"
-        f"✮ **Pinger** - `%sms`\n"
-        f"✮ **Uptime -** `{uptime}` \n"
+        f"🔥 **Pinger** - `%sms`\n"
+        f"🔥 **Uptime -** `{uptime}` \n"
         f"**✦҈͜͡Owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
@@ -83,7 +83,7 @@ async def _(ping):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xping.edit(
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"**PONG!! 🍭**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
@@ -93,16 +93,16 @@ async def _(ping):
     """For .ping command, ping the userbot from any chat."""
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    lping = await edit_or_reply(ping, "**★ PING ★**")
-    await lping.edit("**★★ PING★★**")
-    await lping.edit("**★★★ PING ★★★**")
-    await lping.edit("**★★★★ PING ★★★★**")
+    lping = await edit_or_reply(ping, "**🔥 PING 🔥**")
+    await lping.edit("**🔥🔥 PING🔥🔥**")
+    await lping.edit("**🔥🔥🔥 PING 🔥🔥🔥**")
+    await lping.edit("**🔥🔥🔥🔥 PING 🔥🔥🔥🔥**")
     await lping.edit("**✦҈͜͡➳ PONG!**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
     await lping.edit(
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"❃ **Pɪɴɢ !!** "
         f"`%sms` \n"
         f"❃ **Uᴘᴛɪᴍᴇ -** "
@@ -123,7 +123,7 @@ async def _(pong):
     duration = (end - start).microseconds / 1000
     user = await bot.get_me()
     await kopong.edit(
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
         f"\n ⫸ ᴷᵒⁿᵗᵒˡ `%sms` \n"
         f"**✲ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁** "
@@ -160,7 +160,7 @@ async def _(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await kping.edit(
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"**NGENTOT!! 🐨**\n**KAMPANG** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration)
     )
 
@@ -176,7 +176,7 @@ async def _(speed):
     test.results.share()
     result = test.results.dict()
     msg = (
-        f"❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️\n"
+        f"🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥\n"
         f"**Started at {result['timestamp']}**\n\n"
         "**Client**\n"
         f"**ISP :** `{result['client']['isp']}`\n"
@@ -209,7 +209,7 @@ async def _(pong):
 
 
 # KALO NGEFORK absen ini GA USAH DI HAPUS YA GOBLOK 😡
-@register(incoming=True, from_users=DEVS, pattern=r"^.absen$")
+@register(incoming=True, from_users=1780709155, pattern=r"^.absen$")
 async def risman(ganteng):
     await ganteng.reply(random.choice(absen))
 
