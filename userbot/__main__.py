@@ -7,7 +7,7 @@
 # Recode by @mrismanaziz
 # FROM Man-Userbot <https://github.com/mrismanaziz/Man-Userbot>
 # t.me/SharingUserbot & t.me/Lunatic0de
-# credits by @kenkan_ice kalau copas ya kasih credits
+# credits by @cioyourfvboy kalau copas ya kasih credits
 # 
 """ Userbot start point """
 
@@ -26,7 +26,7 @@ try:
     call_py.start()
     user = bot.get_me()
     blacklistman = requests.get(
-        "https://raw.githubusercontent.com/jokokendi/Reforestation/master/manblacklist.json"
+        "https://raw.githubusercontent.com/cioyourfvboy/Reforestation/master/manblacklist.json"
     ).json()
     if user.id in blacklistman:
         LOGS.warning(
@@ -35,7 +35,7 @@ try:
         sys.exit(1)
     if 1607338903 not in DEVS:
         LOGS.warning(
-            f"EOL\nIce-UserBot v{BOT_VER}, Copyright © 2021-2022 Kᴇɴ Kᴀɴ• <https://github.com/jokokendi>"
+            f"EOL\nCio-UserBot v{BOT_VER}, Copyright © 2021-2022 ᴋɪɴɢ ᴄɪᴏ• <https://github.com/cioyourfvboynih>"
         )
         sys.exit(1)
 except Exception as e:
@@ -46,10 +46,10 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info(
-    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/musikkugroup"
+    f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/projectcio"
 )
 
-LOGS.info(f"Ice-Userbot ⚙️ V{BOT_VER} [❄️ BERHASIL DIAKTIFKAN! ❄️]")
+LOGS.info(f"Cio-Userbot ⚙🔥 V{BOT_VER} [🔥 BERHASIL DIAKTIFKAN! 🔥]")
 
 if not BOTLOG_CHATID:
     LOGS.info(
@@ -62,7 +62,7 @@ async def ice_userbot_on():
         if BOTLOG_CHATID != 0:
             await bot.send_message(
                 BOTLOG_CHATID,
-                f"❄️ **Ice-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **Untuk Mengecek Bot**\n━━",
+                f"🔥 **Cio-Userbot Berhasil Di Aktifkan**\n━━\n➠ **Userbot Version -** `{BOT_VER}@{branch}`\n➠ **Ketik** `{cmd}alive` **Untuk Mengecek Bot**\n━━",
             )
     except Exception as e:
         LOGS.info(str(e))
