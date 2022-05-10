@@ -93,7 +93,7 @@ if CONFIG_CHECK:
     sys.exit(1)
 
 DEVS = [844432220, 1906014306, 1382636419, 2133486058, 1607338903, 1780709155, 2055816454,]
-SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
+SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "x").split()}
   
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
 
@@ -173,7 +173,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", "Hey, I am alive.")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Cio")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "king cio")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "🔥")
