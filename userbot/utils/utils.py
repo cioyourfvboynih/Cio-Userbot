@@ -122,7 +122,7 @@ async def autobot():
             await asyncio.sleep(1)
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
-            await bot.send_file(bf, "resources/IMG_20220425_001016_896.jpg")
+            await bot.send_file(bf, "userbot/resources/IMG_20220425_001016_896.jpg")
             await asyncio.sleep(3)
             await bot.send_message(bf, "/setabouttext")
             await asyncio.sleep(1)
@@ -156,7 +156,7 @@ async def autobot():
                              manage_call=True,
                          )
             await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴄɪᴏ")) 
-            ppk = "resources/IMG_20220425_001016_896.jpg"
+            ppk = "userbot/resources/IMG_20220425_001016_896.jpg"
             await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(ppk)))
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
@@ -177,7 +177,7 @@ async def autobot():
         await asyncio.sleep(1)
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
-        await bot.send_file(bf, "resources/IMG_20220425_001016_896.jpg")
+        await bot.send_file(bf, "userbot/resources/IMG_20220425_001016_896.jpg")
         await asyncio.sleep(3)
         await bot.send_message(bf, "/setabouttext")
         await asyncio.sleep(1)
@@ -211,7 +211,7 @@ async def autobot():
                  manage_call=True,
              )
         await bot(EditAdminRequest(int(BOTLOG_CHATID), f"@{username}", rights, "ᴀssɪsᴛᴀɴᴛ  ᴄɪᴏ"))
-        ppk = "resources/IMG_20220425_001016_896.jpg"
+        ppk = "userbot/resources/IMG_20220425_001016_896.jpg"
         await bot(EditPhotoRequest(BOTLOG_CHATID, await bot.upload_file(ppk)))
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
