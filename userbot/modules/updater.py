@@ -210,9 +210,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  •  **Syntax :** `{cmd}update`\
-        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru Ice-Userbot.\
+        \n  •  **Function : **Untuk Melihat Pembaruan Terbaru Cio-Userbot.\
         \n\n  •  **Syntax :** `{cmd}update deploy`\
-        \n  •  **Function : **Untuk MengUpdate Fitur Terbaru Dari Ice-Userbot.\
+        \n  •  **Function : **Untuk MengUpdate Fitur Terbaru Dari Cio-Userbot.\
     "
     }
 )
