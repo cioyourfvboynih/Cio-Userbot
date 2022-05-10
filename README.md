@@ -27,18 +27,7 @@ Bot ini dimaksudkan untuk bersenang-senang sekaligus membantu anda
 mengelola grup secara efisien dan mengotomatiskan beberapa hal yang membosankan.
 Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak.
 ```
-## Tutorial Video
 
--  [Buat Heroku](https://youtu.be/rzwxYjJf4UY)
--  [Api key](https://youtu.be/Fx5ASIVATWU)
--  [Deploy Cio-Userbot](https://youtu.be/3m9qBZvPpmQ)
-
-
-## Tutorial
-
--  [Panduan Cara Memasang Cio-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
--  [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
--  [List Variabel Cio-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
 
 <details>
 <summary><b>🔗 String Session</b></summary>
@@ -65,14 +54,6 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 -  Install FFMPEG `sudo apt install tree wget2 p7zip-full jq ffmpeg wget git -y`
 -  Install Chrome `wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb` lalu ketik `sudo apt install ./google-chrome-stable_current_amd64.deb`
 
-### Tutorial Deploy di VPS
-
--  `git clone https://github.com/cioyourfvboynih/Cio-Userbot`
--  `cd Cio-Userbot`
--  `bash setup`
--  `screen -S Cio-Userbot`
--  `bash start`
-
 </details>
 <details>
 <summary><b>🔗 Deploy di WEB DAN BOT </b></summary>
@@ -85,7 +66,26 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ## BOT HEROKU
 <p align="center"><a href="https://risman.vercel.app/deploy.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
+## Tutorial Video
 
+-  [Buat Heroku](https://youtu.be/rzwxYjJf4UY)
+-  [Api key](https://youtu.be/Fx5ASIVATWU)
+-  [Deploy Cio-Userbot](https://youtu.be/3m9qBZvPpmQ)
+
+
+## Tutorial
+
+-  [Panduan Cara Memasang Cio-Userbot](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)
+-  [Cara Setting Last.FM modules](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)
+-  [List Variabel Cio-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)
+
+### Tutorial Deploy di VPS
+
+-  `git clone https://github.com/cioyourfvboynih/Cio-Userbot`
+-  `cd Cio-Userbot`
+-  `bash setup`
+-  `screen -S Cio-Userbot`
+-  `bash start`
 
 ## Updates & Support
 
