@@ -9,10 +9,10 @@ async def usit(event):
     await edit_or_reply(
         event,
         f"**Hai {owner} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
-        f"✮ **Group :** [ᗰᑌᔑᏆᏦᏦᑌ ᔑᑌᑭᑭᝪᖇᎢ​](t.me/musikkugroup)\n"
-        f"✮ **Channel :** [𝙋𝙧𝙤𝙟𝙚𝙘𝙩 𝙅𝙖𝙬𝙖](t.me/musikkuchannel)\n"
-        f"✮ **Owner Repo :** [Kᴇɴ Kᴀɴ](t.me/escape_aja)\n"
-        f"✮ **Repo :** [Iᴄᴇ-Usᴇʀʙᴏᴛ](https://github.com/jokokendi/Ice-Userbot)\n",
+        f"✮ **Group :** [𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗖𝗜𝗢​](t.me/projectcio)\n"
+        f"✮ **Channel :** [𝗖𝗜𝗢 𝗠𝗨𝗦𝗜𝗖](t.me/ciomusic)\n"
+        f"✮ **Owner Repo :** [ᴋɪɴɢ ᴄɪᴏ](t.me/cioyourfvboy)\n"
+        f"✮ **Repo :** [ᴄɪᴏ-Usᴇʀʙᴏᴛ](https://github.com/cioyourfvboynih/Cio-Userbot)\n",
     )
 
 
@@ -28,13 +28,13 @@ CMD_HELP.update(
     {
         "helper": f"**Plugin : **`helper`\
         \n\n  •  **Syntax :** `{cmd}ihelp`\
-        \n  •  **Function : **Bantuan Untuk Ice-Userbot.\
+        \n  •  **Function : **Bantuan Untuk Cio-Userbot.\
         \n\n  •  **Syntax :** `{cmd}listvar`\
         \n  •  **Function : **Melihat Daftar Vars.\
         \n\n  •  **Syntax :** `{cmd}repo`\
-        \n  •  **Function : **Melihat Repository Ice-Userbot.\
+        \n  •  **Function : **Melihat Repository Cio-Userbot.\
         \n\n  •  **Syntax :** `{cmd}string`\
-        \n  •  **Function : **Link untuk mengambil String Ice-Userbot.\
+        \n  •  **Function : **Link untuk mengambil String Cio-Userbot.\
     "
     }
 )
