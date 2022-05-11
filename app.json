@@ -14,6 +14,18 @@
       "description": "Dapatkan API Hash di web my.telegram.org",
       "required": true
     },
+    "BOT_TOKEN": {
+      "description": "Buat Bot di t.me/botfather Masukan BOT tokennya disini",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Buat Bot di t.me/botfather Masukan BOT Usernamenya pake @",
+      "required": false
+    },
+    "BOTLOG_CHATID": {
+      "description": "Buatlah grup lalu masukan @MissRose_bot ketik /id, masukan id grup nya disini.",
+      "required": true
+    },
      "STRING_SESSION": {
       "description": "Dapatkan String Session di Grup » https://t.me/projectcio » Lalu ketik /get string",
       "required": true
