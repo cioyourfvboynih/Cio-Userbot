@@ -64,7 +64,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <p align="center"><a href="https://heroku.com/deploy?template=https://github.com/cioyourfvboynih/Cio-Userbot"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Web Heroku" target="_blank"/></a></p>
 
 ## BOT HEROKU
-<p align="center"><a href="https://risman.vercel.app/deploy.html"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
+<p align="center"><a href="https://telegram.dog/XTZ_HerokuBot?start=Y2lveW91cmZ2Ym95bmloL0Npby1Vc2VyYm90IENpby1Vc2VyYm90"><img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku" target="_blank"/></a></p>
 
 ## Tutorial Video
 
